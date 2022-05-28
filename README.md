@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to My Page
 
-You can use the [editor on GitHub](https://github.com/ghossh/ghossh.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Hello everyone welcome to my page. Myself Supriyo, working as a researcher in physical oceanography. Currently, my objective is to understand ocean models. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
@@ -35,3 +34,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
