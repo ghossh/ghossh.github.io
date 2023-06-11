@@ -5,15 +5,25 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
     }
     
     h1 {
       color: #333;
+      margin-bottom: 10px;
     }
     
     h2 {
       color: #777;
+      margin-top: 0;
     }
     
     p {
@@ -25,141 +35,184 @@
     }
     
     .contact-info {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
     
     .skills {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
     
     .experience {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
     
     .education {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
     
     .publication {
+      margin-bottom: 30px;
+    }
+    
+    .article {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       margin-bottom: 20px;
+    }
+    
+    .article h3 {
+      margin-top: 0;
+      color: #555;
+    }
+    
+    .article p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .article ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    
+    .publication p {
+      font-style: italic;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    footer {
+      text-align: center;
+      color: #777;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Supriyo Ghosh</h1>
-    <h2>Data Scientist/Analyst</h2>
-  </header>
-  
-  <section class="contact-info">
-    <h2>Contact Information</h2>
-    <ul>
-      <li>Location: Barcelona, Spain</li>
-      <li>Phone: +91 9804385963</li>
-      <li>Email: ghoshsupriyo167@gmail.com</li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/ghossh">linkedin.com/in/ghossh</a></li>
-      <li>Github: <a href="https://github.com/ghossh">github.com/ghossh</a></li>
-    </ul>
-  </section>
-  
-  <section class="skills">
-    <h2>Areas of Expertise</h2>
-    <h3>Software Skills</h3>
-    <ul>
-      <li>Python, Linux Shell Scripting, High-Performance Computing, Fortran</li>
-      <li>ESMValTool, Numpy, Pandas, Statsmodels, Scikit-learn</li>
-      <li>Git, Excel, Tableau</li>
-      <li>DASK, Xarray, CDO, NetCDF, Pyferret</li>
-    </ul>
+  <div class="container">
+    <header>
+      <h1>Supriyo Ghosh</h1>
+      <h2>Data Scientist/Analyst</h2>
+    </header>
     
-    <h3>Professional Skills</h3>
-    <ul>
-      <li>Linear Algebra, Statistical Analytics</li>
-      <li>Quantitative Analysis, Regression Theory, Cluster Analysis</li>
-      <li>Time Series Analysis</li>
-      <li>Data Cleansing, Transformation and Visualization</li>
-    </ul>
-    
-    <h3>Soft Skills</h3>
-    <ul>
-      <li>Strong Communication and Presentation Skills</li>
-      <li>Mentored a Lot of Students on Different Topics of Physics and Mathematics</li>
-      <li>Excellent Problem-Solving Skills</li>
-      <li>Teamwork and Collaboration Skills</li>
-    </ul>
-  </section>
-  
-  <section class="experience">
-    <h2>Experience</h2>
-    
-    <article>
-      <h3>Junior Research Engineer</h3>
-      <p>Jan 2023 – Present</p>
-      <p>Barcelona Supercomputing Center (BSC), Barcelona, Spain</p>
+    <section class="contact-info">
+      <h2>Contact Information</h2>
       <ul>
-        <li>Fixing climate datasets into CMOR standard using ESMValTool</li>
-        <li>Working on developing certain climate diagnostics for the Europe’s Destination Earth project</li>
+        <li>Location: Barcelona, Spain</li>
+        <li>Phone: +91 9804385963</li>
+        <li>Email: ghoshsupriyo167@gmail.com</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/ghossh">linkedin.com/in/ghossh</a></li>
+        <li>Github: <a href="https://github.com/ghossh">github.com/ghossh</a></li>
       </ul>
-    </article>
+    </section>
     
-    <article>
-      <h3>Junior Research Fellow</h3>
-      <p>Jan 2022 – Dec 2022</p>
-      <p>National Centre for Polar Ocean Research (NCPOR), Goa, India</p>
+    <section class="skills">
+      <h2>Areas of Expertise</h2>
+      <h3>Software Skills</h3>
       <ul>
-        <li>Worked on understanding the dynamics of Sea Level variability in Indian Ocean using a Linear, Continuous and Stratified (LCS) model</li>
+        <li>Python, Linux Shell Scripting, High-Performance Computing, Fortran</li>
+        <li>ESMValTool, Numpy, Pandas, Statsmodels, Scikit-learn</li>
+        <li>Git, Excel, Tableau</li>
+        <li>DASK, Xarray, CDO, NetCDF, Pyferret</li>
       </ul>
-    </article>
-    
-    <article>
-      <h3>Project Student</h3>
-      <p>Jan 2020 – Jun 2020</p>
-      <p>National Centre for Polar Ocean Research (NCPOR), Goa, India</p>
+      
+      <h3>Professional Skills</h3>
       <ul>
-        <li>Analyzed interannual satellite altimeter observation by eliminating the seasonal variability during Summer and found a negative Sea level anomaly along the East coast of India during 1999 (La-nina year). Later, explained it with LCS model</li>
+        <li>Linear Algebra, Statistical Analytics</li>
+        <li>Quantitative Analysis, Regression Theory, Cluster Analysis</li>
+        <li>Time Series Analysis</li>
+        <li>Data Cleansing, Transformation and Visualization</li>
       </ul>
-    </article>
-    
-    <article>
-      <h3>Internship</h3>
-      <p>Apr 2019 – Jul 2019</p>
-      <p>Indian National Center for Ocean Information Service (INCOIS), Hyderabad, India</p>
+      
+      <h3>Soft Skills</h3>
       <ul>
-        <li>Evaluated the performance of LCS and Regional Ocean Modelling systems (ROMS) ocean models on the simulation of Bay of Bengal currents during Summer with respect to NOAA Ocean Surface Current Analyses Real-time (OSCAR) datasets</li>
+        <li>Strong Communication and Presentation Skills</li>
+        <li>Mentored a Lot of Students on Different Topics of Physics and Mathematics</li>
+        <li>Excellent Problem-Solving Skills</li>
+        <li>Teamwork and Collaboration Skills</li>
       </ul>
-    </article>
+    </section>
     
-    <article>
-      <h3>Subject Matter Expert</h3>
-      <p>2020-2021</p>
-      <p>Chegg Inc.</p>
-      <ul>
-        <li>Freelanced as an Expert answerer of Earth Science-related questions pertaining to undergraduate and postgraduate students worldwide. Questions demanded different approaches, concepts, and methodologies to solve</li>
-      </ul>
-    </article>
-  </section>
-  
-  <section class="education">
-    <h2>Education</h2>
-    <article>
-      <h3>M.Sc. Ocean & Atmospheric Sciences</h3>
-      <p>2018 – 2020</p>
-      <p>University of Hyderabad</p>
-    </article>
+    <section class="experience">
+      <h2>Experience</h2>
+      
+      <article class="article">
+        <h3>Junior Research Engineer</h3>
+        <p>Jan 2023 – Present</p>
+        <p>Barcelona Supercomputing Center (BSC), Barcelona, Spain</p>
+        <ul>
+          <li>Fixing climate datasets into CMOR standard using ESMValTool</li>
+          <li>Working on developing certain climate diagnostics for the Europe’s Destination Earth project</li>
+        </ul>
+      </article>
+      
+      <article class="article">
+        <h3>Junior Research Fellow</h3>
+        <p>Jan 2022 – Dec 2022</p>
+        <p>National Centre for Polar Ocean Research (NCPOR), Goa, India</p>
+        <ul>
+          <li>Worked on understanding the dynamics of Sea Level variability in Indian Ocean using a Linear, Continuous and Stratified (LCS) model</li>
+        </ul>
+      </article>
+      
+      <article class="article">
+        <h3>Project Student</h3>
+        <p>Jan 2020 – Jun 2020</p>
+        <p>National Centre for Polar Ocean Research (NCPOR), Goa, India</p>
+        <ul>
+          <li>Analyzed interannual satellite altimeter observation by eliminating the seasonal variability during Summer and found a negative Sea level anomaly along the East coast of India during 1999 (La-nina year). Later, explained it with LCS model</li>
+        </ul>
+      </article>
+      
+      <article class="article">
+        <h3>Internship</h3>
+        <p>Apr 2019 – Jul 2019</p>
+        <p>Indian National Center for Ocean Information Service (INCOIS), Hyderabad, India</p>
+        <ul>
+          <li>Evaluated the performance of LCS and Regional Ocean Modelling systems (ROMS) ocean models on the simulation of Bay of Bengal currents during Summer with respect to NOAA Ocean Surface Current Analyses Real-time (OSCAR) datasets</li>
+        </ul>
+      </article>
+      
+      <article class="article">
+        <h3>Subject Matter Expert</h3>
+        <p>2020-2021</p>
+        <p>Chegg Inc.</p>
+        <ul>
+          <li>Freelanced as an Expert answerer of Earth Science-related questions pertaining to undergraduate and postgraduate students worldwide. Questions demanded different approaches, concepts, and methodologies to solve</li>
+        </ul>
+      </article>
+    </section>
     
-    <article>
-      <h3>B.Sc. Physics Honours with Mathematics</h3>
-      <p>2015 – 2018</p>
-      <p>University of Burdwan</p>
-    </article>
-  </section>
-  
-  <section class="publication">
-    <h2>Publication</h2>
-    <article>
-      <p>A. Mukherjee, S. Ghosh. The changes in ENSO induced interannual variability of sea level anomaly along the western boundary of Bay of Bengal during summer seasons. Deep-Sea Research Part I (2022) (Under Review)</p>
-    </article>
-  </section>
+    <section class="education">
+      <h2>Education</h2>
+      <article class="article">
+        <h3>M.Sc. Ocean & Atmospheric Sciences</h3>
+        <p>2018 – 2020</p>
+        <p>University of Hyderabad</p>
+      </article>
+      
+      <article class="article">
+        <h3>B.Sc. Physics Honours with Mathematics</h3>
+        <p>2015 – 2018</p>
+        <p>University of Burdwan</p>
+      </article>
+    </section>
+    
+    <section class="publication">
+      <h2>Publication</h2>
+      <article class="article">
+        <p>A. Mukherjee, S. Ghosh. The changes in ENSO induced interannual variability of sea level anomaly along the western boundary of Bay of Bengal during summer seasons. Deep-Sea Research Part I (2022) (Under Review)</p>
+      </article>
+    </section>
+    
+    <footer>
+      &copy; 2023 Supriyo Ghosh. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
 
